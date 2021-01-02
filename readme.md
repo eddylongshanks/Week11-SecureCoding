@@ -1,14 +1,19 @@
-# Example Readme file v1.0
+# Week 11 - Secure Coding
 
-## Sub heading 
+## Instructions for use
 
-- List item 1
-- List item 2:
-  - Sub-list item 1
-  - Sub-list item 2
-  - Sub-list item 3
-- List item 3:
+Userlist_App is a Chat box display where contributers must be added to the Member list.
+- Click "View Users" to view the member list
+- Click "Add User" to add yourself to the list of chatters
+- Fill in the form and click "Add"
+- Click "View Chat Box" to start chatting
 
-### Notes
+Admin account details:
+username: testuser
+password: testuser
 
-Add hash symbols for smaller and smaller headings
+## Portfolio Tasks:
+
+- Amend existing code so that secrets are loaded in through environment variables e.g. Django SECRET_KEY variable in settings.py (commit to repo and evidence)
+- Run code through both Bandit and Safety tools to identify any issues with code or dependencies (get evidence)
+- Write a security code review checklist for future projects, include at least 8 checks e.g. do all forms have a csrf token
