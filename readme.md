@@ -8,6 +8,7 @@ Userlist_App is a Chat box display where contributers must be added to the Membe
 - Fill in the form and click "Add"
 - Click "View Chat Box" to start chatting
 
+Environment Variable "DJANGO_SECRET_KEY" needs to be set
 Admin account details:
 username: testuser
 password: testuser
